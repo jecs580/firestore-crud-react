@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-function LinkForm() {
+function LinkForm({addOrEdit}) {
     const initialstateValue={
         url:'',
         name:'',
@@ -13,7 +13,9 @@ function LinkForm() {
     }
     const handleSubmit =e =>{
         e.preventDefault();
-        console.log(values); // values, devuelve un objeto vacio de los campos del form
+        // values, devuelve un objeto vacio de los campos del form
+        addOrEdit(values)
+        setValues({...initialstateValue})
     }
     return (
         <form className="card card-body" onSubmit={handleSubmit}>
@@ -22,16 +24,16 @@ function LinkForm() {
                 <div className="input-group-text bg-light">
                     <i className="material-icons">insert_link</i>
                 </div>
-                <input type="text" className="form-control" placeholder='URL' name="url" onChange={handleInputChange}/>
+                <input type="text" className="form-control" placeholder='URL' name="url" onChange={handleInputChange} value={values['url']}/>
             </div>
             <div className="form-group input-group">
                 <div className="input-group-text bg-light">
                 <i className="material-icons">create</i>
                 </div>
-                <input type="text" className='form-control'name='name' placeholder='Nombre del sitio Web'  onChange={handleInputChange} />
+                <input type="text" className='form-control'name='name' placeholder='Nombre del sitio Web'  onChange={handleInputChange} value={values['name']}/>
             </div>
             <div className="form-group">
-                <textarea className='form-control' placeholder='Descripcion' onChange={handleInputChange} name="description" rows="3"></textarea>
+    <textarea className='form-control' placeholder='Descripcion' onChange={handleInputChange} name="description" rows="3" value={values['description']}></textarea>
             </div>
             <button className='btn btn-primary btn-block'>Guardar</button>
         </form>

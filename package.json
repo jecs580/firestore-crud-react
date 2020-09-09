@@ -2,7 +2,7 @@
   "name": "firestore-crud-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jecs580.github.io/roca-papel-tijeras/",
+  "homepage": "https://jecs580.github.io/firestore-crud-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
