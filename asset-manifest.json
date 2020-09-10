@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/firestore-crud-react/static/css/main.f4bc1fdf.chunk.css",
-    "main.js": "/firestore-crud-react/static/js/main.a0db311c.chunk.js",
-    "main.js.map": "/firestore-crud-react/static/js/main.a0db311c.chunk.js.map",
+    "main.js": "/firestore-crud-react/static/js/main.39eb38b8.chunk.js",
+    "main.js.map": "/firestore-crud-react/static/js/main.39eb38b8.chunk.js.map",
     "runtime-main.js": "/firestore-crud-react/static/js/runtime-main.77e2727d.js",
     "runtime-main.js.map": "/firestore-crud-react/static/js/runtime-main.77e2727d.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/firestore-crud-react/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.ce54e117.chunk.js": "/firestore-crud-react/static/js/2.ce54e117.chunk.js",
-    "static/js/2.ce54e117.chunk.js.map": "/firestore-crud-react/static/js/2.ce54e117.chunk.js.map",
+    "static/css/2.19e10c4f.chunk.css": "/firestore-crud-react/static/css/2.19e10c4f.chunk.css",
+    "static/js/2.8c467ccb.chunk.js": "/firestore-crud-react/static/js/2.8c467ccb.chunk.js",
+    "static/js/2.8c467ccb.chunk.js.map": "/firestore-crud-react/static/js/2.8c467ccb.chunk.js.map",
     "index.html": "/firestore-crud-react/index.html",
-    "precache-manifest.0fc4ca90301f05fcde8354ea1f3cc4ab.js": "/firestore-crud-react/precache-manifest.0fc4ca90301f05fcde8354ea1f3cc4ab.js",
+    "precache-manifest.242ab579218c1cf8cb3e84064715d716.js": "/firestore-crud-react/precache-manifest.242ab579218c1cf8cb3e84064715d716.js",
     "service-worker.js": "/firestore-crud-react/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/firestore-crud-react/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/2.19e10c4f.chunk.css.map": "/firestore-crud-react/static/css/2.19e10c4f.chunk.css.map",
     "static/css/main.f4bc1fdf.chunk.css.map": "/firestore-crud-react/static/css/main.f4bc1fdf.chunk.css.map",
-    "static/js/2.ce54e117.chunk.js.LICENSE.txt": "/firestore-crud-react/static/js/2.ce54e117.chunk.js.LICENSE.txt"
+    "static/js/2.8c467ccb.chunk.js.LICENSE.txt": "/firestore-crud-react/static/js/2.8c467ccb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.77e2727d.js",
-    "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.ce54e117.chunk.js",
+    "static/css/2.19e10c4f.chunk.css",
+    "static/js/2.8c467ccb.chunk.js",
     "static/css/main.f4bc1fdf.chunk.css",
-    "static/js/main.a0db311c.chunk.js"
+    "static/js/main.39eb38b8.chunk.js"
   ]
 }
