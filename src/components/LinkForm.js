@@ -28,7 +28,11 @@ function LinkForm({addOrEdit,currentId,links}) {
         e.preventDefault();
         // values, devuelve un objeto vacio de los campos del form
         if (!validURL(values.url)) {
-            return toast.warning("¡URL Invalida!", { autoClose: 2000 });
+            return toast.warning("¡URL Invalida!", {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: true
+            });
         }
         addOrEdit(values)
         setValues({...initialstateValue})
